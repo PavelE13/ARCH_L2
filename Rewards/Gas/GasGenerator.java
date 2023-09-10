@@ -1,12 +1,11 @@
-package Rewards.Gold;
+package Rewards.Gas;
 
 import Abstractions.IGameItem;
 import Abstractions.ItemGenerator;
 
-public class GoldGenerator extends ItemGenerator {
+public class GasGenerator extends ItemGenerator {
     @Override
     public IGameItem createItem() {
-
-        return new GoldRevards();
+        return new GasRevards();
     }
 }

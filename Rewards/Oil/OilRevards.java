@@ -1,4 +1,12 @@
 package Rewards.Oil;
 
-public class OilRevards {
+import Abstractions.IGameItem;
+
+public class OilRevards implements IGameItem {
+
+
+    @Override
+    public String open() {
+        return "Oil";
+    }
 }
